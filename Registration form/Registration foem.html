@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <legend>Registration form</legend>
+            <div>
+                <label for="firstname">Firstname</label>
+                <input type="text" name="firstname" placeholder="enter your Firstname">
+            </div>
+            <br>
+            <div>
+                <label for="Lastname">Lastname</label>
+                <input type="text" name="Lastname" placeholder="enter your Lastname">
+            </div>
+            <div>
+                <label for="Gender">Gender</label><br>
+                <input type="radio" name="Gender" placeholder="Male" value="Male" />
+                <label for="Gender">Male</label><br>
+                <input type="radio" name="Gender" placeholder="Female"> <label for="Gender">Female</label><br>
+                <input type="radio" name="Gender" placeholder="Others"> <label for="Gender">Others</label><br>
+            </div>
+            <div>
+                <label for="Email">Email</label><br>
+                <input type="email" name="email" placeholder="Enter your email" /><br>
+            </div>
+            <br>
+            <div>
+                <textarea name="about"  cols="30" rows="5" placeholder="Tell about yourself..."></textarea>
+            </div>
+        </fieldset>
+        <br>
+        <input type="button" value="Submit">
+    </form>
+</body>
+
+</html>
