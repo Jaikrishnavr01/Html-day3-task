@@ -6,29 +6,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registration form</title>
 </head>
+<style>
+#fd{
+    color: red;
+  font-size: 20px;
+}
+#firstname {
+color: rgb(129, 224, 91);
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#Lastname{
+    color: rgb(129, 224, 91);
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
+}
+
+#Gender{
+    color: pink;
+}
+
+#button{
+background-color: orangered;
+color: wheat;
+}
+#Email{
+    color: brown;
+}
+
+</style>
 <body>
     <form>
-        <fieldset>
-            <legend>Registration form</legend>
+        <fieldset >
+            <legend id="fd" >Registration form</legend>
             <div>
-                <label for="firstname">Firstname</label>
+                <label for="firstname" id="firstname">Firstname</label>
                 <input type="text" name="firstname" placeholder="enter your Firstname">
             </div>
             <br>
             <div>
-                <label for="Lastname">Lastname</label>
+                <label for="Lastname" id="Lastname">Lastname</label>
                 <input type="text" name="Lastname" placeholder="enter your Lastname">
             </div>
             <div>
-                <label for="Gender">Gender</label><br>
+                <label for="Gender" id="Gender">Gender</label><br>
                 <input type="radio" name="Gender" placeholder="Male" value="Male" />
                 <label for="Gender">Male</label><br>
                 <input type="radio" name="Gender" placeholder="Female"> <label for="Gender">Female</label><br>
                 <input type="radio" name="Gender" placeholder="Others"> <label for="Gender">Others</label><br>
             </div>
             <div>
-                <label for="Email">Email</label><br>
+                <label for="Email"id="Email">Email</label><br>
                 <input type="email" name="email" placeholder="Enter your email" /><br>
             </div>
             <br>
@@ -37,7 +64,7 @@
             </div>
         </fieldset>
         <br>
-        <input type="button" value="Submit">
+        <input type="button" value="Submit" id="button">
     </form>
 </body>
 
